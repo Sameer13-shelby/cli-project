@@ -1,3 +1,10 @@
+
+#testgit 
+# change the code
+# git add .
+# git commit -m "Your Message"
+# git push origin
+
 import csv
 import sqlite3
 
@@ -25,7 +32,7 @@ Enter the option:
 """
 
 
-# command line application
+
 def create_table(conn):
     CREATE_USERS_TABLE_QUERY = """
         CREATE TABLE IF NOT EXISTS users (
